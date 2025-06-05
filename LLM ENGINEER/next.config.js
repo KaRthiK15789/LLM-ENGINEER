@@ -4,20 +4,24 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false, // Changed to false for production
   },
-  images: { unoptimized: true },
-  devIndicators: false,
-  allowedDevOrigins: [
-    "*.macaly.dev",
-    "*.macaly.app",
-    "*.macaly-app.com",
-    "*.macaly-user-data.dev",
-  ],
-};
+  images: {
+    unoptimized: true, // Disable Image Optimization API
+    domains: ['avatars.githubusercontent.com'],
+  },
+  reactStrictMode: true,
+  // Add this for proper API route handling
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: '/api/:path*',
+      },
+    ]
+  },
+  // Enable standalone output for Vercel
+  output: 'standalone',
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
