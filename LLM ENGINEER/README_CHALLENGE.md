@@ -90,25 +90,6 @@ Response from the LLM: [full response text]
 ====================
 ```
 
-## File Structure
-```
-app/
-├── api/process/route.ts     # Backend API endpoint
-├── page.tsx                 # Main page component
-├── globals.css              # Global styles with Inter font
-└── layout.tsx              # Root layout
-
-components/
-└── chat-interface.tsx       # Main chat interface component
-
-components/ui/               # shadcn/ui components
-├── button.tsx
-├── input.tsx
-├── card.tsx
-├── badge.tsx
-└── ...
-```
-
 ## Key Implementation Details
 
 ### 1. Mock spaCy NER
@@ -126,14 +107,3 @@ The system handles various error scenarios:
 - Network timeouts
 - Invalid prompts
 - Malformed responses
-
-## Screenshots and Demo
-[Screenshots would be included showing the interface with highlighted entities and LLM responses]
-
-This implementation demonstrates:
-- Clean, organized code structure
-- Modern UI/UX design principles
-- Robust error handling
-- Integration with external APIs
-- Real-time data visualization
-- Comprehensive logging and debugging features
