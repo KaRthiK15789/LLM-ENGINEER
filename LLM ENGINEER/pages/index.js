@@ -1,75 +1,79 @@
 import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { Loader2 } from 'lucide-react';
+import { toast } from 'sonner';
+
+const formSchema = z.object({
+  prompt: z.string().min(5, 'Prompt must be at least 5 characters')
+});
 
 export default function Home() {
-  const [input, setInput] = useState('');
   const [result, setResult] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+  
+  const { register, handleSubmit, formState: { errors } } = useForm({
+    resolver: zodResolver(formSchema)
+  });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!input.trim()) return;
-    
-    setIsLoading(true);
-    setError(null);
-    
+  const onSubmit = async ({ prompt }) => {
     try {
+      setIsLoading(true);
+      setResult('');
+      
       const response = await fetch('/api/generate', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ prompt: input }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt })
       });
 
-      if (!response.ok) {
-        throw new Error(`Request failed: ${response.status}`);
-      }
-
+      if (!response.ok) throw new Error('Request failed');
+      
       const data = await response.json();
       setResult(data.result);
-    } catch (err) {
-      console.error('Fetch error:', err);
-      setError(err.message);
-      setResult('');
+    } catch (error) {
+      toast.error('Error', {
+        description: error.message || 'Failed to generate response'
+      });
     } finally {
       setIsLoading(false);
     }
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <main className="container mx-auto px-4 py-8 max-w-3xl">
       <h1 className="text-3xl font-bold mb-6">LLM Engineer</h1>
       
-      <form onSubmit={handleSubmit} className="mb-8">
-        <textarea
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          className="w-full p-3 border rounded mb-4"
-          rows={4}
-          placeholder="Enter your prompt..."
-        />
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        <div>
+          <textarea
+            {...register('prompt')}
+            className="w-full p-3 border rounded-md min-h-[150px]"
+            placeholder="Enter your prompt..."
+            disabled={isLoading}
+          />
+          {errors.prompt && (
+            <p className="text-sm text-red-500 mt-1">{errors.prompt.message}</p>
+          )}
+        </div>
+        
         <button
           type="submit"
           disabled={isLoading}
-          className={`px-4 py-2 bg-blue-600 text-white rounded ${isLoading ? 'opacity-50' : 'hover:bg-blue-700'}`}
+          className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors flex items-center gap-2"
         >
-          {isLoading ? 'Processing...' : 'Generate'}
+          {isLoading && <Loader2 className="h-4 w-4 animate-spin" />}
+          Generate
         </button>
       </form>
 
-      {error && (
-        <div className="p-4 mb-4 text-red-700 bg-red-100 rounded">
-          Error: {error}
-        </div>
-      )}
-
       {result && (
-        <div className="p-4 bg-white border rounded">
-          <h2 className="text-xl font-semibold mb-2">Result:</h2>
+        <div className="mt-8 p-4 bg-muted rounded-md">
+          <h2 className="text-xl font-semibold mb-2">Response:</h2>
           <div className="whitespace-pre-wrap">{result}</div>
         </div>
       )}
-    </div>
+    </main>
   );
 }
