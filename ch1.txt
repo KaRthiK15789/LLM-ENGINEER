@@ -1,0 +1,84 @@
+The title is: How to Have a Conversation With AI That Gets Its Attention
+In an AI Curriculum Developer Internship
+
+Hey there!
+I think we can all agree, some of the things AI says are so dumb that we just want to chuck our devices at this point. The workshop will teach you how to get ChatGPT and Gemini to address your work needs. There is no technology geek talk, only stuff you can use right away.
+
+What You Should Learn by the End.
+At the end of our 2 hours, you will know more about yourself.
+
+Find out where your prompts are failing your AI (it’s not you - it’s just your prompts!)
+
+Choose prompts that help you improve your writing a lot. answers
+
+Use tricks for kids like giving them small examples first (this works much better than it might appear).
+
+Our Game Plan is:
+
+During the first 15 mins, do some light stretches and breathing exercises.
+
+Who has had luck with hilariously bad output from AI?
+
+I have some scary AI mistakes I can share with you (and I have proof via screenshots).
+
+Next 20 mins: Pros, Cons & Drawbacks of Prompts
+
+What your AI is exposed to when you phrase the prompt in a general way
+
+These are the three things almost everyone does wrong (I still get them mixed up at times).
+
+15 min Demo: See Me Make Mistakes (And Succeed at the End)
+
+Studies where people are acting as participants:
+
+Make the initial example very bad (have the model give a wrong result).
+
+Work on it together to improve (get better)
+
+Create a comedic goldmine (set up the “high five” moment).
+40 minutes: Follow Along As You Practice
+
+Trying to Make This Better Challenge
+
+We’ll fix truly bad assignments (such as “Describe sales”) and turn them into great ones.
+
+Writers are encouraged to show things on screen rather than tell the audience what is going on.
+
+Teach AI by showing it examples the same way you would a new intern.
+
+Identify the work problem you want to solve.
+
+In this case, you should write the unexpected "missing the deadline" message.
+
+For this option: Change the messy points from your meeting into simple, clear bullets.
+20 minutes Available to Come and Go
+
+Look through everyone’s fine points and copy some great ideas.
+
+Fix problems where the answer is not quite right.
+
+The final set is your Cheat Sheet
+
+Bullet points of essential reminders
+
+What I believe are the top free resources
+
+Continue to ask any other questions that might be left over
+
+What You Actually Learn From Us:
+
+Some pointers for answering questions so AI doesn't misunderstand them (like instructing a friend who always takes things very literally)
+
+A more detailed explanation: why just "be more specific" is not enough and how you should actually write
+
+The tactic of finding examples which halves your frustration.
+
+Handling cases where the answer is very close to—but not exactly—what’s expected
+
+You are Going to Practice With:
+
+Real job duties (not just ideas and concepts)
+
+Examples in which you have fun before or after attending:
+The incorrect way: "List the job job opening"
+Put together a job posting on LinkedIn for a junior designer in our company. Remember to state the 4 key tasks, list the 3 essential skills (highlighting Figma) and ensure the ad seems fun but reliable so people who apply are up for the job and can work on time.

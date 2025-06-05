@@ -1,0 +1,86 @@
+Workshop Title: How to Talk to AI So It Actually Listens
+For AI Curriculum Developer Internship
+
+Hey there!
+Let's be honest - we've all gotten those weird, useless responses from AI that make us want to throw our laptops. This workshop is your cheat code to getting ChatGPT and Gemini to actually give you what you need at work. No tech jargon, just practical skills you can use immediately.
+
+What You'll Walk Away With:
+By the end of our 2 hours together, you'll:
+
+Spot why your AI keeps misunderstanding you (it's not you - it's your prompts!)
+
+Write prompts that get you from "meh" to "perfect!" answers
+
+Use pro tricks like teaching through examples (way easier than it sounds)
+
+Our Game Plan:
+
+First 15 mins: Warm-Up
+
+Quick show of hands: Who's gotten hilariously bad AI responses?
+
+I'll share my cringiest AI fails (yes, I have screenshots)
+
+Next 20 mins: The Good, Bad & Ugly of Prompts
+
+What your AI "hears" when you write vague prompts
+
+The 3 most common mistakes everyone makes (I still mess up 2 sometimes)
+
+15 min Demo: Watch Me Struggle (Then Get It Right)
+
+Live examples where we:
+
+Start with a terrible prompt (get a useless answer)
+
+Tweak it together (get better)
+
+Make it perfect (high five moment)
+
+40 min Hands-On Time: Your Turn!
+
+"Fix This Hot Mess" Challenge
+
+We'll take real bad prompts (like "Write something about sales") and make them magic
+
+"Show Don't Tell" Exercise
+
+Teach AI like you'd train a new intern - with clear examples
+
+Pick Your Work Problem
+
+Option A: Write that awkward "hey you missed the deadline" email
+
+Option B: Turn messy meeting notes into clean bullet points
+
+20 min Share & Learn
+
+See everyone's best prompts (steal the good ideas!)
+
+Troubleshoot answers that still aren't quite right
+
+Last 10 min: Your Cheat Sheet
+
+Quick recap of must-remember tips
+
+My favorite free resources
+
+Answer whatever's still puzzling you
+
+What We're Really Teaching You:
+
+How to give instructions AI won't mess up (like explaining something to a very literal friend)
+
+Why "be more specific" isn't enough - and what to actually write instead
+
+The "show examples" trick that cuts frustration in half
+
+How to fix answers that are almost-but-not-quite right
+
+You'll Practice With:
+
+Real work tasks (no theoretical nonsense)
+
+Fun before/after examples like:
+Bad: "Make a job post"
+Good: "Write a LinkedIn job post for a junior designer at our startup. Include: 4 key tasks, 3 must-have skills (mention Figma), and make it sound fun but professional - we want applicants who are creative but can meet deadlines."

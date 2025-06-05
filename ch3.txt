@@ -1,0 +1,111 @@
+Guide to Talking to AI as an Expert
+When applying for the internship, consider these points in relation to the AI curriculum developer role (For AI Internship Application)
+
+Greetings!
+I think you are here because you want to use ChatGPT and Gemini effectively.This workshop is meant for professionals and new graduates who want to improve their communication with AI.
+
+Outcomes
+By the close of this session, you will be capable of :
+Discover why some prompts are successful but others fall short when trying AI.
+
+Make sure prompts are clear and helpful, so you get good answers and not frustration.
+
+Gain better outcomes by relying on advanced techniques such as few-shot prompting.
+
+Plans for Spending Our Time
+These are the songs we will perform for the 2-hour session:
+
+Begin with a warm-up session (15 min).
+
+A quick introduction: Which industries use AI at work now? No problem if you haven’t (yet)!
+
+Actual incidents that show good and bad uses of AI
+
+The Fundamentals (20 min)
+
+How do you determine a good prompt? (Tip: Presenting the project is similar to giving clear directions to a fresh intern).
+
+Typical errors made by most people (and how to avoid them)
+
+Now, watch how it works with a few examples (15 minutes of practice).
+
+I will give you actual examples of:
+
+A bad starting point → no real outcome
+
+We are so happy with the prompt you made.
+
+We’ll work on refining prompts so we achieve better outcomes
+
+It’s your turn to respond (40 min)
+
+Step 1: Rewrite these negative prompts to make them much better (you’ll get a laugh out of how silly some of them are).
+
+Try teaching the AI by showing it examples, much like helping a new employee learn (Exercise 2).
+
+Work on solving actual work challenges (drafting emails, making report summaries, etc.).
+
+Promote communication among the group by letting them express their thoughts (20 minutes).
+
+Show your most witty or entertaining prompts.
+
+Solve problems as a team.
+
+Grab the best ideas and secrets from each person.
+
+Finish (10 min)
+
+Key takeaways
+
+
+More resources for education
+
+Questions answered by the text
+
+The information to be discussed here.
+Using this style makes instructions very clear.
+
+Article goal: The lesson behind choosing "write something about marketing"
+
+Teaching AI by Example: For instance, how you would show someone the steps to do something
+
+Next Steps: What to do after the AI responds with almost all of your demands
+
+Helping and Appropriate AI Answers: Avoiding problems with AI
+
+Stories, diagrams and games will be important tools in this course.
+ChatGPT and Gemini have excellent free editions, for all your needs.
+
+Working out practice problems (The Engaging Phase!)
+1. Prompt Makeover
+Work on fixing these weak prompts and adding more force to them:
+
+Before: "Please describe social media for me"
+
+after that: "Outline some effective Instagram posts for an online coffee shop, using a few captions as illustrations
+
+2. Show-and-Tell Prompting
+Show the AI different examples of what you want it to learn.
+Demonstrate by saying: "How do you say 'Good morning' in Spanish? → 'Buenos días'"
+Demonstrate: "Good night means 'Buenas noches' in Spanish"
+
+Consider saying: "Good afternoon."
+
+3. Working through Challenging Problems
+Select one and work on it to get a solution.
+
+Kindly remind a colleague about not meeting the deadline with a firm email.
+
+Organize these comments about customers into just 3 core improvements you should make.
+
+Real-World Examples
+A poor way to word it would be: "Make a job description"
+Make a job description for a junior graphic designer who will work at a startup. List 5 main duties, 3 important skills and try to make the job description fun and exciting.
+
+Too vague: “Help me with the presentation”
+Good: "Create 5 good opening slides for a 10-minute sales pitch to people interested in funding our company producing eco-friendly packaging."
+
+Final Details
+The format is PDF.
+
+Send your application to hr@byteseq.com
